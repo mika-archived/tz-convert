@@ -1,0 +1,42 @@
+{
+  "name": "@mikazuki/tz-convert",
+  "version": "0.1.0",
+  "description": "Convert time zone between Microsoft Time Zone Index Values and IANA Time Zone",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.min.js",
+  "types": "dist/index.d.ts",
+  "jsdelivr": "dist/index.umd.min.js",
+  "unpkg": "dist/index.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/mika-f/tz-convert.git",
+  "homepage": "https://github.com/mika-f/tz-convert",
+  "author": {
+    "name": "Fuyuno Mikazuki",
+    "email": "mikazuki_fuyuno@outlook.com",
+    "url": "https://mochizuki.dev"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "bili",
+    "prepublishOnly": "yarn run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "bili": "^4.8.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
