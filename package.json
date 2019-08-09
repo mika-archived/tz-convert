@@ -1,9 +1,9 @@
 {
   "name": "@mikazuki/tz-convert",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert time zone between Microsoft Time Zone Index Values and IANA Time Zone",
-  "main": "dist/index.min.js",
-  "module": "dist/index.esm.min.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "jsdelivr": "dist/index.umd.min.js",
   "unpkg": "dist/index.umd.min.js",
