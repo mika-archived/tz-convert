@@ -10,6 +10,6 @@ export function windowsToIana(timezone: string, territory: string = "001"): stri
   if (!tz) return undefined;
   if (!tz) return undefined;
 
-  const zone = tz.i.find(w => w.territory == territory);
+  const zone = tz.i.find(w => w.territory === territory);
   return zone ? zone.type[0] : undefined;
 }
